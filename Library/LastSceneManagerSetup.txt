@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/ProAudioPlayer/Example/Scene/AudioPlayer.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
