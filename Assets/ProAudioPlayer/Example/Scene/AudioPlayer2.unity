@@ -324,6 +324,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11401360, guid: 18acd1745bbc21b46be6db50ada25f46, type: 3}
+      propertyPath: m_Clip.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11401360, guid: 18acd1745bbc21b46be6db50ada25f46, type: 3}
+      propertyPath: m_Clip.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 249504d0b1c8cd649934a482bc8a73ef, type: 3}
+    - target: {fileID: 11401360, guid: 18acd1745bbc21b46be6db50ada25f46, type: 3}
+      propertyPath: m_Clip.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: ff07588663eb89547998b91ba581dced, type: 3}
     - target: {fileID: 22400944, guid: 18acd1745bbc21b46be6db50ada25f46, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.000002861023
