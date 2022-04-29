@@ -308,7 +308,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 11480616, guid: 1319f43a586de3f4697d81acf1157604, type: 3}
       propertyPath: m_Clip.Array.size
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 11480616, guid: 1319f43a586de3f4697d81acf1157604, type: 3}
       propertyPath: m_Clip.Array.data[0]
@@ -321,7 +321,19 @@ PrefabInstance:
     - target: {fileID: 11480616, guid: 1319f43a586de3f4697d81acf1157604, type: 3}
       propertyPath: m_Clip.Array.data[2]
       value: 
-      objectReference: {fileID: 8300000, guid: ff07588663eb89547998b91ba581dced, type: 3}
+      objectReference: {fileID: 8300000, guid: b2caa2fc9b164dd4aa6de55740206768, type: 3}
+    - target: {fileID: 11480616, guid: 1319f43a586de3f4697d81acf1157604, type: 3}
+      propertyPath: m_Clip.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: cbcb22bea182e4c4bafd43e3da622ff3, type: 3}
+    - target: {fileID: 11480616, guid: 1319f43a586de3f4697d81acf1157604, type: 3}
+      propertyPath: m_Clip.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 881e370072825c149b00919ee28767b8, type: 3}
+    - target: {fileID: 11480616, guid: 1319f43a586de3f4697d81acf1157604, type: 3}
+      propertyPath: m_Clip.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 37e9b712daa911d4285a10c19b677ebc, type: 3}
     - target: {fileID: 22402074, guid: 1319f43a586de3f4697d81acf1157604, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
