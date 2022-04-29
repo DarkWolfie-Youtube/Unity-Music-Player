@@ -213,6 +213,67 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &542523643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 542523646}
+  - component: {fileID: 542523645}
+  - component: {fileID: 542523644}
+  m_Layer: 0
+  m_Name: Scene Variables
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &542523644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542523643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995777834, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &542523645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542523643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Text(URL)","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Button(URL)","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 0}
+    - {fileID: 0}
+--- !u!4 &542523646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542523643}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &643072532
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,6 +397,18 @@ PrefabInstance:
       propertyPath: m_Clip.Array.data[1]
       value: 
       objectReference: {fileID: 8300000, guid: ff07588663eb89547998b91ba581dced, type: 3}
+    - target: {fileID: 11458476, guid: 18acd1745bbc21b46be6db50ada25f46, type: 3}
+      propertyPath: PlayOnLoad
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458476, guid: 18acd1745bbc21b46be6db50ada25f46, type: 3}
+      propertyPath: AudioURLs.Array.data[1].AudioTitle
+      value: Vanic - BorderLine
+      objectReference: {fileID: 0}
+    - target: {fileID: 11458476, guid: 18acd1745bbc21b46be6db50ada25f46, type: 3}
+      propertyPath: AudioURLs.Array.data[1].m_AudioType
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 22400944, guid: 18acd1745bbc21b46be6db50ada25f46, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0.000002861023
