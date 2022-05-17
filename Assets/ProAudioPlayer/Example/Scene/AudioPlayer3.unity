@@ -213,6 +213,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &419877628 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11427266, guid: c40d23aad4b15574b8126f037dae6d06,
+    type: 3}
+  m_PrefabInstance: {fileID: 1085893367}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &643072532
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,7 +333,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 11461706, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
       propertyPath: m_Clip.Array.size
-      value: 15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11461706, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
       propertyPath: m_Clip.Array.data[0]
@@ -383,33 +395,209 @@ PrefabInstance:
       propertyPath: m_Clip.Array.data[14]
       value: 
       objectReference: {fileID: 8300000, guid: b739c5fb621460640b36d6db88f0a1a2, type: 3}
+    - target: {fileID: 11461706, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: m_Clip.Array.data[15]
+      value: 
+      objectReference: {fileID: 8300000, guid: 157634876920b054aad0a7c908a6d726, type: 3}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: PlayOnLoad
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
       propertyPath: AudioURLs.Array.size
-      value: 0
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
       propertyPath: AudioURLs.Array.data[0].URL
-      value: 
+      value: http://darksmp.com/music/Dream%20-%20Mask.mp3
       objectReference: {fileID: 0}
     - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
       propertyPath: AudioURLs.Array.data[1].URL
-      value: 
+      value: http://darksmp.com/music/Among.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[2].URL
+      value: http://darksmp.com/music/Vision.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[3].URL
+      value: http://darksmp.com/music/youbad.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[4].URL
+      value: http://darksmp.com/music/Nether.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[5].URL
+      value: http://darksmp.com/music/RoadTrip%20Remix%20-%20Larry%20Poppins.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[6].URL
+      value: http://darksmp.com/music/headbreaker.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[7].URL
+      value: http://darksmp.com/music/Arcadia.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[8].URL
+      value: http://darksmp.com/music/clothes.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[9].URL
+      value: http://darksmp.com/music/three.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[10].URL
+      value: http://darksmp.com/music/FRIDAY.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[11].URL
+      value: http://darksmp.com/music/Roadtrip.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[12].URL
+      value: http://darksmp.com/Seaman.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[13].URL
+      value: http://darksmp.com/music/so.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[14].URL
+      value: http://darksmp.com/music/gone.mp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[15].URL
+      value: http://darksmp.com/music/comego.mp3
       objectReference: {fileID: 0}
     - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
       propertyPath: AudioURLs.Array.data[0].AudioTitle
-      value: 
+      value: Dream - Mask
       objectReference: {fileID: 0}
     - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
       propertyPath: AudioURLs.Array.data[1].AudioTitle
-      value: 
+      value: Lyin' To Me - CG5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[2].AudioTitle
+      value: Vision - Lost Sky
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[3].AudioTitle
+      value: Wilbur Soot - Your New Boyfriend
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[4].AudioTitle
+      value: In the Nether - Larry Poppins
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[5].AudioTitle
+      value: RoadTrip Remix - Larry Poppins
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[6].AudioTitle
+      value: Clear My Head - Ellis
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[7].AudioTitle
+      value: Arcadia - TheFatRat
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[8].AudioTitle
+      value: Change My Clothes - Dream ft. Alec Benjamin
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[9].AudioTitle
+      value: Count To Three - The Chalkeaters
       objectReference: {fileID: 0}
     - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
       propertyPath: AudioURLs.Array.data[0].m_AudioType
-      value: 0
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[10].AudioTitle
+      value: Ok Friday - CG5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[11].AudioTitle
+      value: Dream ft. PmBata - Roadtrip
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[12].AudioTitle
+      value: Life By the Sea - Tubbo ft. CG5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[13].AudioTitle
+      value: So Lonely - JaccOnCracc
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[14].AudioTitle
+      value: Juice WRLD - I'm Gone
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[15].AudioTitle
+      value: Juice WRLD - Come & Go
       objectReference: {fileID: 0}
     - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
       propertyPath: AudioURLs.Array.data[1].m_AudioType
-      value: 0
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[2].m_AudioType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[3].m_AudioType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[4].m_AudioType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[5].m_AudioType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[6].m_AudioType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[7].m_AudioType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[8].m_AudioType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[9].m_AudioType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[10].m_AudioType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[11].m_AudioType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[12].m_AudioType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[13].m_AudioType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[14].m_AudioType
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463802, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
+      propertyPath: AudioURLs.Array.data[15].m_AudioType
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 22400628, guid: c40d23aad4b15574b8126f037dae6d06, type: 3}
       propertyPath: m_AnchorMax.x
@@ -770,4 +958,82 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1506454304 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 149228, guid: c40d23aad4b15574b8126f037dae6d06,
+    type: 3}
+  m_PrefabInstance: {fileID: 1085893367}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1506454305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506454304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6425c9dd392fe42bd2791098d20a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioText: {fileID: 419877628}
+--- !u!1 &1672890848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1672890851}
+  - component: {fileID: 1672890850}
+  - component: {fileID: 1672890849}
+  m_Layer: 0
+  m_Name: Scene Variables
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1672890849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672890848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995777834, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1672890850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672890848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!4 &1672890851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672890848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

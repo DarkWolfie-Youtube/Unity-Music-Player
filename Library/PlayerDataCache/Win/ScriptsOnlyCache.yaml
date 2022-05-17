@@ -1,21 +1,21 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DiscordController
     - bl_APlayList
     - bl_AudioPlayer
     - bl_ClipInfo
     - bl_DownloadAudio
     - bl_DragPanel
-    - bl_SampleToAlpha
     - bl_ScrollTitle
-    - bl_Speaker
     - bl_SpectrumAudio
     - bl_SpectrumUI
-    - changescene
     Bolt.Core.Runtime.dll:
     - Bolt.SceneVariables
     - Bolt.Variables
     - Bolt.VariablesAsset
+    Bolt.Flow.Runtime.dll:
+    - Bolt.FlowMacro
     Ludiq.Core.Runtime.dll:
     - Ludiq.DictionaryAsset
     Ludiq.Graphs.Editor.dll:
@@ -45,224 +45,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/ProAudioPlayer/Example/Scene/AudioPlayer.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 111
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11378}
-    - Class: 114
-      Script: {instanceID: 11380}
-    - Class: 114
-      Script: {instanceID: 11408}
-    - Class: 114
-      Script: {instanceID: 11586}
-    - Class: 114
-      Script: {instanceID: 11644}
-    - Class: 114
-      Script: {instanceID: 11660}
-    - Class: 114
-      Script: {instanceID: 11820}
-    - Class: 114
-      Script: {instanceID: 11838}
-    - Class: 114
-      Script: {instanceID: 12188}
-    - Class: 114
-      Script: {instanceID: 12210}
-    - Class: 114
-      Script: {instanceID: 12248}
-    - Class: 114
-      Script: {instanceID: 12300}
-    - Class: 114
-      Script: {instanceID: 12570}
-    - Class: 114
-      Script: {instanceID: 12818}
-    - Class: 114
-      Script: {instanceID: 12868}
-    - Class: 114
-      Script: {instanceID: 13010}
-    - Class: 114
-      Script: {instanceID: 13552}
-    - Class: 114
-      Script: {instanceID: 13566}
-    - Class: 114
-      Script: {instanceID: 13756}
-    - Class: 114
-      Script: {instanceID: 13778}
-    - Class: 114
-      Script: {instanceID: 13848}
-    - Class: 114
-      Script: {instanceID: 13904}
-    - Class: 114
-      Script: {instanceID: 13990}
-    - Class: 114
-      Script: {instanceID: 14018}
-    - Class: 114
-      Script: {instanceID: 14066}
-    - Class: 114
-      Script: {instanceID: 14110}
-    - Class: 114
-      Script: {instanceID: 14128}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 124
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 225
-      Script: {instanceID: 0}
-    - Class: 241
-      Script: {instanceID: 0}
-    - Class: 243
-      Script: {instanceID: 0}
-    - Class: 245
-      Script: {instanceID: 0}
-    - Class: 258
-      Script: {instanceID: 0}
-    Assets/ProAudioPlayer/Example/Scene/AudioPlayer2.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 111
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11378}
-    - Class: 114
-      Script: {instanceID: 11380}
-    - Class: 114
-      Script: {instanceID: 11408}
-    - Class: 114
-      Script: {instanceID: 11586}
-    - Class: 114
-      Script: {instanceID: 11660}
-    - Class: 114
-      Script: {instanceID: 11820}
-    - Class: 114
-      Script: {instanceID: 11838}
-    - Class: 114
-      Script: {instanceID: 11912}
-    - Class: 114
-      Script: {instanceID: 12016}
-    - Class: 114
-      Script: {instanceID: 12188}
-    - Class: 114
-      Script: {instanceID: 12210}
-    - Class: 114
-      Script: {instanceID: 12248}
-    - Class: 114
-      Script: {instanceID: 12300}
-    - Class: 114
-      Script: {instanceID: 12570}
-    - Class: 114
-      Script: {instanceID: 12818}
-    - Class: 114
-      Script: {instanceID: 12868}
-    - Class: 114
-      Script: {instanceID: 13010}
-    - Class: 114
-      Script: {instanceID: 13552}
-    - Class: 114
-      Script: {instanceID: 13566}
-    - Class: 114
-      Script: {instanceID: 13756}
-    - Class: 114
-      Script: {instanceID: 13778}
-    - Class: 114
-      Script: {instanceID: 13904}
-    - Class: 114
-      Script: {instanceID: 13990}
-    - Class: 114
-      Script: {instanceID: 14018}
-    - Class: 114
-      Script: {instanceID: 14066}
-    - Class: 114
-      Script: {instanceID: 14110}
-    - Class: 114
-      Script: {instanceID: 14128}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 124
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 225
-      Script: {instanceID: 0}
-    - Class: 241
-      Script: {instanceID: 0}
-    - Class: 243
-      Script: {instanceID: 0}
-    - Class: 245
-      Script: {instanceID: 0}
-    - Class: 258
-      Script: {instanceID: 0}
     Assets/ProAudioPlayer/Example/Scene/AudioPlayer3.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -282,8 +64,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -295,31 +75,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11380}
     - Class: 114
-      Script: {instanceID: 11408}
+      Script: {instanceID: 11382}
     - Class: 114
-      Script: {instanceID: 11586}
+      Script: {instanceID: 11410}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 11590}
     - Class: 114
-      Script: {instanceID: 11820}
+      Script: {instanceID: 11666}
     - Class: 114
-      Script: {instanceID: 11838}
+      Script: {instanceID: 11824}
     - Class: 114
-      Script: {instanceID: 12188}
+      Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 12210}
+      Script: {instanceID: 11918}
     - Class: 114
-      Script: {instanceID: 12248}
+      Script: {instanceID: 12022}
     - Class: 114
-      Script: {instanceID: 12300}
+      Script: {instanceID: 12024}
     - Class: 114
-      Script: {instanceID: 12570}
+      Script: {instanceID: 12194}
     - Class: 114
-      Script: {instanceID: 12818}
+      Script: {instanceID: 12216}
     - Class: 114
-      Script: {instanceID: 12868}
+      Script: {instanceID: 12254}
     - Class: 114
-      Script: {instanceID: 13010}
+      Script: {instanceID: 12306}
+    - Class: 114
+      Script: {instanceID: 12578}
+    - Class: 114
+      Script: {instanceID: 12822}
+    - Class: 114
+      Script: {instanceID: 13014}
+    - Class: 114
+      Script: {instanceID: 13100}
     - Class: 114
       Script: {instanceID: 13552}
     - Class: 114
@@ -327,19 +115,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13756}
     - Class: 114
-      Script: {instanceID: 13778}
+      Script: {instanceID: 13776}
     - Class: 114
-      Script: {instanceID: 13904}
+      Script: {instanceID: 13902}
     - Class: 114
-      Script: {instanceID: 13990}
+      Script: {instanceID: 13988}
     - Class: 114
-      Script: {instanceID: 14018}
+      Script: {instanceID: 14016}
     - Class: 114
-      Script: {instanceID: 14066}
+      Script: {instanceID: 14064}
     - Class: 114
-      Script: {instanceID: 14110}
+      Script: {instanceID: 14108}
     - Class: 114
-      Script: {instanceID: 14128}
+      Script: {instanceID: 14126}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -368,61 +156,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
-    Assets/Scenes/SampleScene.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11378}
-    - Class: 114
-      Script: {instanceID: 11380}
-    - Class: 114
-      Script: {instanceID: 11408}
-    - Class: 114
-      Script: {instanceID: 11912}
-    - Class: 114
-      Script: {instanceID: 12016}
-    - Class: 114
-      Script: {instanceID: 12018}
-    - Class: 114
-      Script: {instanceID: 12300}
-    - Class: 114
-      Script: {instanceID: 12868}
-    - Class: 114
-      Script: {instanceID: 13566}
-    - Class: 114
-      Script: {instanceID: 13992}
-    - Class: 114
-      Script: {instanceID: 14066}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
   scriptHashData:
   - hash:
       serializedVersion: 2
@@ -430,6 +163,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: aeb62f729c52c814dec86c47dcac1471
@@ -1038,12 +777,6 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 5f1752ed2092162f016c19510c28a8b9
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
-  - hash:
-      serializedVersion: 2
       Hash: f84d945e5e1ca985698660fc26e9657f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1054,6 +787,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 38be5d99ef2b7a86ccfa1400b8dd11b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DiscordController
   - hash:
       serializedVersion: 2
       Hash: f64fd37da5cb89243ec68b5026d70bb8
@@ -1126,12 +865,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: cd0ecdca0166232906c6f2df9dddc3d3
-    assemblyName: com.ben-w.erp.dll
-    namespaceName: ERP
-    className: ERPWindow
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -1296,9 +1029,6 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 5
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  - Assets/ProAudioPlayer/Example/Scene/AudioPlayer.unity
-  - Assets/ProAudioPlayer/Example/Scene/AudioPlayer2.unity
   - Assets/ProAudioPlayer/Example/Scene/AudioPlayer3.unity
   playerPath: C:/Users/bolak/OneDrive/Desktop/Unity Builds/Unity Music Player/Unity
     Music Player.exe
