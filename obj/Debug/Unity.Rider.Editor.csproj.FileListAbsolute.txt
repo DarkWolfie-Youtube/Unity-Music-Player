@@ -1,0 +1,2 @@
+C:\Users\bolak\Unity Music Player\Unity-Music-Player\obj\Debug\Unity.Rider.Editor.csproj.AssemblyReference.cache
+C:\Users\bolak\Unity Music Player\Unity-Music-Player\obj\Debug\Unity.Rider.Editor.csproj.CoreCompileInputs.cache

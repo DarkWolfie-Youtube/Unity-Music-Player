@@ -1,2 +1,7 @@
 
 .erp
+*.jar
+.gitignore
+.erp
+Assets/.npmignore
+Assets/.travis.yml

@@ -493,6 +493,9 @@
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.31f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="AssetStoreTools">
+ <HintPath>C:/Users/bolak/Unity Music Player/Unity-Music-Player/Assets/AssetStoreTools/Editor/AssetStoreTools.dll</HintPath>
+ </Reference>
  <Reference Include="Antlr3.Runtime">
  <HintPath>C:/Users/bolak/Unity Music Player/Unity-Music-Player/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
  </Reference>
@@ -549,9 +552,6 @@
  </Reference>
  <Reference Include="unityplastic">
  <HintPath>C:/Users/bolak/Unity Music Player/Unity-Music-Player/Library/PackageCache/com.unity.collab-proxy@1.10.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
- </Reference>
- <Reference Include="AssetStoreTools">
- <HintPath>C:/Users/bolak/Unity Music Player/Unity-Music-Player/Assets/AssetStoreTools/Editor/AssetStoreTools.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>C:/Users/bolak/Unity Music Player/Unity-Music-Player/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -925,13 +925,13 @@
       <Project>{C8C74BCA-8B87-786E-557B-9F73F4F0ABF8}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{B5C5AA4A-0E25-2C61-5D45-E8F039C0355B}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{4CD4C202-76EA-3B8A-7E59-27FEA70A1DDF}</Project>
       <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{B5C5AA4A-0E25-2C61-5D45-E8F039C0355B}</Project>
+      <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{73203F28-6FAD-5FF7-F259-20F3533C71F6}</Project>

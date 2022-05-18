@@ -121,6 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!82 &97323114 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8246994, guid: c40d23aad4b15574b8126f037dae6d06,
+    type: 3}
+  m_PrefabInstance: {fileID: 1085893367}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &376576537
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,6 +243,7 @@ GameObject:
   - component: {fileID: 643072536}
   - component: {fileID: 643072535}
   - component: {fileID: 643072534}
+  - component: {fileID: 643072537}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -324,6 +331,35 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &643072537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643072532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e4b38522acadc74db1c8ed4d20c8daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Image: {fileID: 1536322022}
+  AudioText: {fileID: 419877628}
+  AudioPlayer: {fileID: 97323114}
+  Image1: {fileID: 21300000, guid: 79ead060d774d6e4b8c9a34b70e69847, type: 3}
+  Image2: {fileID: 21300000, guid: fd656d5543518b74ebb44cd651466e3d, type: 3}
+  Image3: {fileID: 21300000, guid: 8b1eb981cf186a746854562231aad396, type: 3}
+  Image4: {fileID: 21300000, guid: b90233c1a3f62e54aaa2ddc104688670, type: 3}
+  Image5: {fileID: 21300000, guid: 8400cd9d5facb564f9804bb1de724dd4, type: 3}
+  Image6: {fileID: 21300000, guid: 5eb91efd2fc0cad4fb31897cacb0b066, type: 3}
+  Image7: {fileID: 21300000, guid: be9d7015c8a358c4fa42e592e1b0863b, type: 3}
+  Image8: {fileID: 21300000, guid: 0e6a6b93bf3d56449bd0a99e9fcb2129, type: 3}
+  Image9: {fileID: 0}
+  Image10: {fileID: 0}
+  Image11: {fileID: 0}
+  Image12: {fileID: 0}
+  defaultsprite: {fileID: 21300000, guid: 60ea21876eddc06468f8b007cd4db8af, type: 3}
+  pauseSprite: {fileID: 21300000, guid: e93876a7b4c39fc41a220230caf2280b, type: 3}
 --- !u!1001 &1085893367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -978,6 +1014,81 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioText: {fileID: 419877628}
+  AudioPlayer: {fileID: 97323114}
+--- !u!1 &1536322019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1536322020}
+  - component: {fileID: 1536322021}
+  - component: {fileID: 1536322022}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1536322020
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536322019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1085893368}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -53.6, y: -54.5}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1536322021
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536322019}
+  m_CullTransparentMesh: 0
+--- !u!114 &1536322022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536322019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 60ea21876eddc06468f8b007cd4db8af, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 1
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1672890848
 GameObject:
   m_ObjectHideFlags: 0

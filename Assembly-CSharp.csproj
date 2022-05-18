@@ -71,6 +71,7 @@
      <Compile Include="Assets\ProAudioPlayer\Content\Scripts\bl_SpectrumAudio.cs" />
      <Compile Include="Assets\ProAudioPlayer\Content\Scripts\bl_SpectrumUI.cs" />
      <Compile Include="Assets\changescene.cs" />
+     <Compile Include="Assets\image.cs" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Engine.xml" />
      <None Include="Assets\Ludiq\Assemblies\Bolt.State.Runtime.xml" />
@@ -122,7 +123,6 @@
      <None Include="Assets\Ludiq\Assemblies\Ludiq.Platforms.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Windows.Forms.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Services.xml" />
-     <None Include="Assets\ProAudioPlayer\Content\Audio\Music\announce.txt" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.DataSetExtensions.xml" />
      <None Include="Assets\Ludiq\Assemblies\Bolt.Core.Runtime.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Runtime.Serialization.xml" />

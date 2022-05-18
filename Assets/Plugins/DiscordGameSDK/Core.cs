@@ -1053,7 +1053,7 @@ namespace Discord
             Marshal.FreeHGlobal(AchievementEventsPtr);
         }
 
-        public void RunCallbacks()
+        public void RunCallBacks()
         {
             var res = Methods.RunCallbacks(MethodsPtr);
             if (res != Result.Ok)

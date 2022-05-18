@@ -10,6 +10,7 @@ ScriptsOnlyBuild:
     - bl_ScrollTitle
     - bl_SpectrumAudio
     - bl_SpectrumUI
+    - image
     Bolt.Core.Runtime.dll:
     - Bolt.SceneVariables
     - Bolt.Variables
@@ -69,63 +70,65 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 11376}
+    - Class: 114
       Script: {instanceID: 11378}
     - Class: 114
       Script: {instanceID: 11380}
     - Class: 114
-      Script: {instanceID: 11382}
+      Script: {instanceID: 11408}
     - Class: 114
-      Script: {instanceID: 11412}
+      Script: {instanceID: 11600}
     - Class: 114
-      Script: {instanceID: 11592}
+      Script: {instanceID: 11676}
     - Class: 114
-      Script: {instanceID: 11668}
+      Script: {instanceID: 11836}
     - Class: 114
-      Script: {instanceID: 11826}
+      Script: {instanceID: 11856}
     - Class: 114
-      Script: {instanceID: 11846}
+      Script: {instanceID: 11930}
     - Class: 114
-      Script: {instanceID: 11920}
+      Script: {instanceID: 12034}
     - Class: 114
-      Script: {instanceID: 12024}
+      Script: {instanceID: 12036}
     - Class: 114
-      Script: {instanceID: 12026}
+      Script: {instanceID: 12206}
     - Class: 114
-      Script: {instanceID: 12196}
+      Script: {instanceID: 12228}
     - Class: 114
-      Script: {instanceID: 12218}
+      Script: {instanceID: 12266}
     - Class: 114
-      Script: {instanceID: 12256}
+      Script: {instanceID: 12318}
     - Class: 114
-      Script: {instanceID: 12308}
+      Script: {instanceID: 12590}
     - Class: 114
-      Script: {instanceID: 12580}
+      Script: {instanceID: 12834}
     - Class: 114
-      Script: {instanceID: 12824}
+      Script: {instanceID: 13024}
     - Class: 114
-      Script: {instanceID: 13016}
+      Script: {instanceID: 13110}
     - Class: 114
-      Script: {instanceID: 13102}
+      Script: {instanceID: 13562}
     - Class: 114
-      Script: {instanceID: 13554}
+      Script: {instanceID: 13576}
     - Class: 114
-      Script: {instanceID: 13568}
+      Script: {instanceID: 13766}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13786}
     - Class: 114
-      Script: {instanceID: 13778}
+      Script: {instanceID: 13912}
     - Class: 114
-      Script: {instanceID: 13904}
+      Script: {instanceID: 13998}
     - Class: 114
-      Script: {instanceID: 13990}
+      Script: {instanceID: 14026}
     - Class: 114
-      Script: {instanceID: 14018}
+      Script: {instanceID: 14074}
     - Class: 114
-      Script: {instanceID: 14066}
+      Script: {instanceID: 14118}
     - Class: 114
-      Script: {instanceID: 14110}
+      Script: {instanceID: 14136}
     - Class: 114
-      Script: {instanceID: 14128}
+      Script: {instanceID: 18490}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -787,7 +790,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 38be5d99ef2b7a86ccfa1400b8dd11b5
+      Hash: b35119c1f3332393775e32b7a97aceed
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DiscordController
@@ -1025,6 +1028,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 668c49d2f8401f77cafebe267c355835
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: image
   platform: 5
   scenePathNames:
   - Assets/ProAudioPlayer/Example/Scene/AudioPlayer3.unity
